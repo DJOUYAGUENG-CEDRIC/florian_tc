@@ -23,7 +23,7 @@ function CopyIcon() {
 
 function CheckIcon() {
   return (
-    <svg viewBox="0 0 24 24" fill="none" stroke="#f59e0b" strokeWidth="2.5" className="w-3.5 h-3.5">
+    <svg viewBox="0 0 24 24" fill="none" stroke="#d97706" strokeWidth="2.5" className="w-3.5 h-3.5">
       <polyline points="20 6 9 17 4 12" />
     </svg>
   );
@@ -54,7 +54,7 @@ export default function PlatformsCard() {
     <div className="px-3 pt-3 pb-1">
       <div
         className="rounded-xl px-3 py-2.5 shadow-sm"
-        style={{ background: '#fff8f0', border: '1px solid #fde68a' }}
+        style={{ background: '#fff8ec', border: '1px solid #fde68a' }}
       >
         <p className="text-[10px] font-bold uppercase tracking-widest mb-2" style={{ color: '#b45309' }}>
           Plateformes recommandées
@@ -72,7 +72,7 @@ export default function PlatformsCard() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-1 text-xs font-semibold transition-colors"
-                style={{ color: '#7f1d1d' }}
+                style={{ color: '#78350f' }}
                 title={`Rejoindre ${p.name}`}
               >
                 <ExternalLinkIcon />
@@ -81,14 +81,14 @@ export default function PlatformsCard() {
 
               {p.code && (
                 <>
-                  <span className="text-xs font-mono font-bold" style={{ color: '#f59e0b' }}>
+                  <span className="text-xs font-mono font-bold" style={{ color: '#d97706' }}>
                     {p.code}
                   </span>
                   <button
                     type="button"
                     onClick={() => handleCopy(p.code, p.name)}
                     className="transition-colors ml-0.5"
-                    style={{ color: copiedName === p.name ? '#f59e0b' : '#b45309' }}
+                    style={{ color: copiedName === p.name ? '#d97706' : '#b45309' }}
                     title={`Copier le code ${p.code}`}
                     aria-label={`Copier le code ${p.code}`}
                   >

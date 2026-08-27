@@ -83,7 +83,7 @@ export default function AudioMessage({ src }) {
   };
 
   const progress = duration > 0 ? (currentTime / duration) * 100 : 0;
-  const trackBg = `linear-gradient(to right, #f59e0b ${progress}%, #fde68a ${progress}%)`;
+  const trackBg = `linear-gradient(to right, #d97706 ${progress}%, #fde68a ${progress}%)`;
 
   return (
     <div className="flex justify-start">
@@ -96,10 +96,10 @@ export default function AudioMessage({ src }) {
         </audio>
 
         <div className="flex items-center gap-1.5 mb-2.5">
-          <div className="rounded-full p-1 text-white shrink-0" style={{ background: '#dc2626' }}>
+          <div className="rounded-full p-1 text-white shrink-0" style={{ background: '#d97706' }}>
             <MicIcon />
           </div>
-          <span className="text-xs font-medium" style={{ color: '#92400e' }}>Message vocal</span>
+          <span className="text-xs font-medium" style={{ color: '#b45309' }}>Message vocal</span>
         </div>
 
         <div className="flex items-center gap-2.5">
@@ -107,7 +107,7 @@ export default function AudioMessage({ src }) {
             type="button"
             onClick={togglePlay}
             className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center text-white shadow"
-            style={{ background: '#dc2626' }}
+            style={{ background: 'linear-gradient(135deg, #dc2626, #f59e0b)' }}
             aria-label={isPlaying ? 'Pause' : 'Lecture'}
           >
             {isPlaying ? <PauseIcon /> : <PlayIcon />}
@@ -123,7 +123,7 @@ export default function AudioMessage({ src }) {
               style={{ background: trackBg }}
               aria-label="Position de lecture"
             />
-            <div className="flex justify-between text-xs tabular-nums" style={{ color: '#92400e' }}>
+            <div className="flex justify-between text-xs tabular-nums" style={{ color: '#b45309' }}>
               <span>{formatTime(currentTime)}</span>
               <span>{formatTime(duration)}</span>
             </div>

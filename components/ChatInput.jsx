@@ -39,10 +39,10 @@ export default function ChatInput({ onSend, disabled }) {
         className="flex-1 rounded-full px-4 py-2.5 text-sm outline-none transition-all disabled:opacity-50 disabled:cursor-not-allowed"
         style={{
           background: '#ffffff',
-          color: '#7f1d1d',
+          color: '#78350f',
           border: '1px solid #fde68a',
         }}
-        onFocus={(e) => { e.target.style.borderColor = '#f59e0b'; e.target.style.boxShadow = '0 0 0 2px rgba(245,158,11,0.2)'; }}
+        onFocus={(e) => { e.target.style.borderColor = '#d97706'; e.target.style.boxShadow = '0 0 0 2px rgba(217,119,6,0.2)'; }}
         onBlur={(e) => { e.target.style.borderColor = '#fde68a'; e.target.style.boxShadow = 'none'; }}
         autoComplete="off"
       />
@@ -50,7 +50,7 @@ export default function ChatInput({ onSend, disabled }) {
         type="submit"
         disabled={!value.trim() || disabled}
         className="shrink-0 w-10 h-10 rounded-full flex items-center justify-center transition-colors shadow text-white"
-        style={{ background: value.trim() && !disabled ? '#dc2626' : '#fecaca', cursor: value.trim() && !disabled ? 'pointer' : 'not-allowed' }}
+        style={{ background: value.trim() && !disabled ? 'linear-gradient(135deg, #dc2626, #f59e0b)' : '#fde68a', cursor: value.trim() && !disabled ? 'pointer' : 'not-allowed' }}
         aria-label="Envoyer"
       >
         <SendIcon />

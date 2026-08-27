@@ -42,7 +42,7 @@ export default function Header() {
       style={{
         background: '#ffffff',
         borderBottom: '1px solid #fde68a',
-        borderTop: '3px solid #dc2626',
+        borderTop: '3px solid #d97706',
       }}
     >
       <div className="relative shrink-0">
@@ -50,21 +50,21 @@ export default function Header() {
           src={PROFILE_IMAGE}
           alt={ASSISTANT_NAME}
           className="w-11 h-11 rounded-full object-cover"
-          style={{ boxShadow: '0 0 0 2px #f59e0b' }}
+          style={{ boxShadow: '0 0 0 2px #d97706' }}
           onError={(e) => {
             e.target.onerror = null;
             e.target.src =
-              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='24' fill='%23dc2626'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23fde68a' font-size='14' font-family='sans-serif' font-weight='bold'%3EAF%3C/text%3E%3C/svg%3E";
+              "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Crect width='48' height='48' rx='24' fill='%23d97706'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='central' text-anchor='middle' fill='%23fff8ec' font-size='12' font-family='sans-serif' font-weight='bold'%3EFTC%3C/text%3E%3C/svg%3E";
           }}
         />
         <span
-          className="absolute bottom-0 right-0 w-3 h-3 rounded-full"
+          className="absolute bottom-0 right-0 w-3 h-3 rounded-full pulse-dot"
           style={{ background: '#22c55e', boxShadow: '0 0 0 2px #ffffff' }}
         />
       </div>
 
       <div className="flex-1 min-w-0">
-        <p className="font-semibold text-sm truncate leading-tight" style={{ color: '#7f1d1d' }}>
+        <p className="font-semibold text-sm truncate leading-tight shimmer-text">
           {ASSISTANT_NAME}
         </p>
         <div className="flex items-center gap-1.5 mt-0.5">
@@ -77,7 +77,7 @@ export default function Header() {
         type="button"
         onClick={() => setMenuOpen((v) => !v)}
         className="shrink-0 flex items-center justify-center w-9 h-9 rounded-xl transition-colors"
-        style={{ color: '#92400e', background: menuOpen ? 'rgba(245,158,11,0.12)' : 'transparent' }}
+        style={{ color: '#78350f', background: menuOpen ? 'rgba(217,119,6,0.1)' : 'transparent' }}
         aria-label="Menu"
       >
         {menuOpen ? <CloseIcon /> : <BurgerIcon />}
@@ -92,11 +92,11 @@ export default function Header() {
             type="button"
             onClick={() => { setMenuOpen(false); router.push('/admin'); }}
             className="flex items-center gap-3 w-full px-4 py-3 text-sm text-left transition-colors"
-            style={{ color: '#92400e' }}
-            onMouseEnter={(e) => { e.currentTarget.style.background = '#fff8f0'; e.currentTarget.style.color = '#dc2626'; }}
-            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#92400e'; }}
+            style={{ color: '#b45309' }}
+            onMouseEnter={(e) => { e.currentTarget.style.background = '#fff8ec'; e.currentTarget.style.color = '#d97706'; }}
+            onMouseLeave={(e) => { e.currentTarget.style.background = 'transparent'; e.currentTarget.style.color = '#b45309'; }}
           >
-            <span style={{ color: '#dc2626' }}><LockIcon /></span>{' '}Connexion Admin
+            <span style={{ color: '#d97706' }}><LockIcon /></span>{' '}Connexion Admin
           </button>
         </div>
       )}

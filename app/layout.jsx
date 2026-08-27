@@ -1,11 +1,9 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Bot Apple of Fortune',
-  description: 'Assistant Apple of Fortune — Code promo 58NEX',
-  icons: {
-    icon: '/apple.jpeg',
-  },
+  title: 'Florian TC',
+  description: 'Assistant Apple of Fortune — Code promo FTC17',
+  icons: { icon: '/apple.jpeg' },
 };
 
 export const viewport = {
