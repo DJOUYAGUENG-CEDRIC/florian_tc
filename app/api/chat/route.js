@@ -34,7 +34,7 @@ export async function POST(request) {
     ];
 
     const response = await mistral.chat.complete({
-      model: 'mistral-small-latest',
+      model: process.env.MISTRAL_MODEL || 'mistral-small-latest',
       messages,
     });
 
@@ -61,7 +61,15 @@ export async function POST(request) {
 
     return Response.json({ reply });
   } catch (err) {
-    console.error('[chat] Erreur lors de l\'appel Mistral :', err.message ?? err);
+    const upstream = err.statusCode;
+    console.error('[chat] Erreur lors de l\'appel Mistral :', upstream ?? '', err.message ?? err);
+
+    if (upstream === 429) {
+      return Response.json(
+        { error: 'Le service est très sollicité. Réessaie dans une minute.' },
+        { status: 429 }
+      );
+    }
     return Response.json(
       { error: 'Une erreur est survenue. Veuillez réessayer dans quelques instants.' },
       { status: 500 }

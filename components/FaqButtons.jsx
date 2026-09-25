@@ -1,7 +1,7 @@
 'use client';
 
 const FAQ_QUESTIONS = [
-  'Comment gagner sur Apple of Fortune ?',
+  'Comment avoir accès aux pronostics ?',
   "Comment s'inscrire ?",
 ];
 

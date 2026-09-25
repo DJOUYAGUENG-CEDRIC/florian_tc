@@ -3,158 +3,143 @@
 // Toute information absente de cette base ne doit pas être inventée.
 
 export const KNOWLEDGE_BASE = `
-=== FLORIAN TC — CODE FTC17 ===
+=== CONDITIONS OBLIGATOIRES D'ACCÈS À LA CHAÎNE WHATSAPP ===
 
-Ce service propose un accompagnement autour du jeu Apple of Fortune
-disponible sur les plateformes partenaires.
+Pour rejoindre la chaîne WhatsApp Florian TC et accéder aux pronostics, deux conditions
+sont OBLIGATOIRES, sans exception et sans dérogation possible :
 
-L'objectif principal du chatbot est d'aider les utilisateurs à comprendre
-le fonctionnement du service et surtout de les guider vers l'inscription
-afin qu'ils puissent, sous réserve du respect des conditions d'accès,
-bénéficier des failles réservées.
+1. S'inscrire sur l'un de nos bookmakers partenaires (1XBET, MELBET, PARIPESA ou WINWIN)
+   via le lien officiel fourni, en entrant le code promo FTC17 au moment de
+   l'inscription (impossible à ajouter après).
 
-==================================================
-=== CONDITIONS OBLIGATOIRES POUR ACCÉDER AUX FAILLES ===
-==================================================
+2. Effectuer un dépôt minimum de 3 $ ou 1500 fcfa (ou l'équivalent en monnaie locale) sur son
+   compte bookmaker après l'inscription.
 
-L'accès aux failles Apple of Fortune est soumis à DEUX CONDITIONS OBLIGATOIRES.
+Ces deux conditions sont cumulatives : l'une sans l'autre ne suffit pas.
+Un abonné qui remplit ces deux conditions reçoit un accès immédiat à la chaîne.
 
-CONDITION 1 :
-L'utilisateur doit créer son compte sur l'une des plateformes partenaires
-(1XBET, MELBET, PARIPESA ou WINWIN) en utilisant le code promotionnel :
 
-FTC17
+=== CHAÎNE WHATSAPP OFFICIELLE ===
 
-CONDITION 2 :
-L'utilisateur doit effectuer un PREMIER DÉPÔT minimum de 3$ ou 1 500 FCFA.
+Nom de la chaîne : Florian TC
+Lien officiel    : https://whatsapp.com/channel/0029VbBMpcy23n3g99sGel3a
 
-Les deux conditions sont CUMULATIVES.
+Pour rejoindre la chaîne :
+- Ouvrir le lien ci-dessus sur WhatsApp
+- Appuyer sur "Suivre" ou "S'abonner"
+- Vérifier que les deux conditions (inscription + dépôt 3 $ ou 1500 fcfa) sont bien remplies
 
-Cela signifie :
+Message d'invitation à utiliser (naturel, accrocheur) :
+"Pour avoir accès aux coupons grosse cote, score exact, FIFA et plein d'autres jeux,
+rejoins-nous dans la chaîne WhatsApp où on gagne tous les jours ! 🏆"
+Ne pas simplement dire "rejoins la chaîne WhatsApp" — toujours mentionner
+les types de coupons disponibles pour donner envie à l'abonné de rejoindre.
 
-- Inscription avec FTC17 + premier dépôt = conditions remplies.
-- Inscription sans utiliser FTC17 = conditions non remplies.
-- Dépôt sans inscription avec FTC17 = conditions non remplies.
 
-Si les deux conditions ne sont pas respectées, l'utilisateur ne peut pas
-bénéficier de l'accès aux failles.
-
-==================================================
-=== CODE PROMO ===
-==================================================
-
-Code promotionnel officiel :
-
-FTC17
-
-Le code doit être utilisé AU MOMENT DE L'INSCRIPTION sur la plateforme choisie.
-
-Le chatbot doit rappeler à l'utilisateur de vérifier que le code FTC17 est bien
-renseigné avant de valider son inscription.
-
-Si la plateforme ne permet plus d'ajouter le code après la création du compte,
-le chatbot doit expliquer que le code doit être utilisé lors de l'inscription.
-
-==================================================
 === BOOKMAKERS PARTENAIRES ===
-==================================================
 
--- 1XBET --
-Lien d'inscription :
-https://reffpa.com/L?tag=d_1608441m_1573c_&site=1608441&ad=1573
+Code promo unique : FTC17
+Ce code DOIT être entré au moment de l'inscription. Il est impossible de l'ajouter
+une fois le compte créé, quelle que soit la raison invoquée.
 
-Emplacement du code :
-Le champ "Code promotionnel" se trouve dans le formulaire d'inscription.
+-- 1XBET (recommandé en priorité) --
+Lien d'inscription : https://reffpa.com/L?tag=d_1608441m_1573c_&site=1608441&ad=1573
+Emplacement du code promo : champ "Code promotionnel" situé dans le formulaire
+  d'inscription, avant le bouton de validation.
 
 -- MELBET --
-Lien d'inscription :
-https://refpa3665.com/L?tag=d_2722689m_53523c_&site=2722689&ad=53523&r=promotions/fifa-world-cup
-
-Emplacement du code :
-Le champ "Code promo" se trouve dans le formulaire d'inscription.
+Lien d'inscription : https://refpa3665.com/L?tag=d_2722689m_53523c_&site=2722689&ad=53523&r=promotions/fifa-world-cup
+Emplacement du code promo : champ "Code promo" dans le formulaire d'inscription.
+  Si le champ n'est pas visible, chercher le lien "J'ai un code promo".
 
 -- PARIPESA --
-Lien d'inscription :
-https://paripesa.bet/ftc17
-
-Emplacement du code :
-Le champ "Code promotionnel" se trouve dans le formulaire d'inscription.
+Lien d'inscription : https://paripesa.bet/ftc17
+Emplacement du code promo : champ "Code promotionnel" ou "Code bonus" visible avant
+  la validation finale du formulaire d'inscription.
 
 -- WINWIN --
-Lien d'inscription :
-https://refpa98980.com/L?tag=d_5342122m_94904c_&site=5342122&ad=94904
+Lien d'inscription : https://refpa98980.com/L?tag=d_5342122m_94904c_&site=5342122&ad=94904
+Emplacement du code promo : champ "Code promotionnel", généralement vers le bas
+  du formulaire d'inscription.
 
-Emplacement du code :
-Le champ "Code promotionnel" se trouve généralement vers le bas du formulaire.
 
-==================================================
-=== PROCÉDURE D'INSCRIPTION ===
-==================================================
+=== GUIDE D'INSCRIPTION ÉTAPE PAR ÉTAPE ===
 
-Étape 1 :
-Ouvrir le lien officiel de la plateforme choisie (1XBET, MELBET, PARIPESA ou WINWIN).
+Étape 1 : Cliquer sur le lien officiel du bookmaker choisi (1xBet, Melbet, PariPesa ou WinWin).
+Étape 2 : Choisir la méthode d'inscription (numéro de téléphone ou e-mail recommandé).
+Étape 3 : Renseigner ses informations personnelles (nom, prénom, date de naissance,
+           numéro de téléphone ou e-mail, pays, devise).
+Étape 4 : Entrer le code promo FTC17 dans le champ prévu à cet effet
+           AVANT de valider le formulaire (voir emplacements ci-dessus).
+Étape 5 : Valider l'inscription et confirmer son compte (SMS ou e-mail de confirmation).
+Étape 6 : Effectuer un dépôt minimum de 3 $ ou 1500 fcfa via Mobile Money (MTN, Orange, Moov)
+           ou tout autre moyen disponible.
+Étape 7 : Rejoindre la chaîne WhatsApp Florian TC via le lien officiel.
 
-Étape 2 :
-Créer son compte avec les informations demandées.
 
-Étape 3 :
-Entrer impérativement le code promo FTC17.
+=== PROBLÈMES FRÉQUENTS ET SOLUTIONS ===
 
-Étape 4 :
-Vérifier que le code est bien pris en compte avant de terminer l'inscription.
+-- Inscription impossible --
+• Site bloqué ou inaccessible dans mon pays
+  → Utiliser un VPN gratuit. Recommandation : l'application 1.1.1.1 de Cloudflare
+    (disponible sur Android et iOS), simple et fiable.
+• Le lien ne s'ouvre pas
+  → Copier le lien et l'ouvrir manuellement dans le navigateur Google Chrome.
+• Le formulaire refuse ma saisie
+  → Vérifier d'avoir au moins 18 ans (condition légale obligatoire).
+    Si la date de naissance est correcte, essayer avec un autre navigateur.
+• Mon numéro de téléphone est refusé
+  → Demander à la personne si c'est la première fois qu'elle utilise ce numéro
+    sur ce bookmaker, ou si elle a déjà créé un compte avec ce même numéro
+    (même il y a longtemps). Un numéro de téléphone ne peut être utilisé
+    qu'UNE SEULE FOIS par bookmaker. Si un compte existe déjà avec ce numéro,
+    l'inscription sera automatiquement refusée.
+  → Solution : s'inscrire avec une adresse e-mail à la place du numéro.
 
-Étape 5 :
-Valider et confirmer le compte.
+-- Champ code promo introuvable --
+• 1xBet / WinWin : le champ "Code promotionnel" se trouve dans le formulaire,
+  faire défiler vers le bas si nécessaire.
+• Melbet : chercher le champ "Code promo" ou le texte "J'ai un code promo" pour afficher le champ.
+• PariPesa : chercher le champ "Code promotionnel" ou "Code bonus" avant de cliquer
+  sur le bouton final de validation.
+Si le champ n'est pas visible, essayer un autre navigateur ou vider le cache.
 
-Étape 6 :
-Effectuer le premier dépôt minimum de 3$ ou 1 500 FCFA.
 
-==================================================
-=== APPLE OF FORTUNE ===
-==================================================
+-- Dépôt non crédité sur le compte --
+• Patienter 5 à 15 minutes ; les dépôts Mobile Money peuvent prendre du temps.
+• Vérifier le SMS de confirmation de l'opérateur (MTN, Orange, Moov).
+• Si le montant n'apparaît toujours pas après 30 minutes : contacter le support du
+  bookmaker en fournissant le reçu de la transaction (numéro de référence, capture d'écran).
 
-Apple of Fortune est un jeu disponible sur les plateformes partenaires.
+-- Bonus non activé après inscription --
+Causes possibles :
+  - Le code FTC17 n'a pas été entré lors de l'inscription → non corrigible après coup.
+  - Le montant déposé est insuffisant pour déclencher le bonus (vérifier les conditions).
+  - Le compte existait déjà avant cette inscription (le bonus est réservé aux nouveaux comptes).
+Solution : contacter le support du bookmaker en expliquant la situation.
 
-Le chatbot peut expliquer le fonctionnement général du jeu lorsque les informations
-nécessaires sont disponibles dans cette base.
+-- Vérification d'identité (KYC) demandée --
+• C'est une procédure normale et obligatoire pour retirer ses gains.
+• Documents acceptés : carte nationale d'identité (recto-verso) ou passeport valide.
+• La vérification peut prendre 24 à 72 heures selon le bookmaker.
+• Sans vérification KYC validée, les retraits peuvent être bloqués.
 
-Le chatbot ne doit pas inventer :
-- les résultats d'une partie ;
-- la position réelle d'une pomme ;
-- une faille non documentée ;
-- un multiplicateur précis non présent dans les informations fournies ;
-- une méthode garantie de gain.
+-- Retrait d'argent --
+• Aller dans la section "Retrait" ou "Withdrawal" du bookmaker.
+• Choisir Mobile Money (MTN, Orange ou Moov selon disponibilité).
+• Entrer le montant et confirmer avec le code reçu par SMS.
+• Délai habituel : quelques minutes à 24 heures.
+• La vérification d'identité (KYC) est obligatoire avant tout premier retrait.
 
-==================================================
-=== PROBLÈMES D'INSCRIPTION ===
-==================================================
 
-Si le lien ne s'ouvre pas :
-→ proposer de copier le lien et de l'ouvrir dans Google Chrome.
+=== RECOMMANDATION BOOKMAKER ===
 
-Si le champ FTC17 n'est pas visible :
-→ faire défiler le formulaire vers le bas.
-→ vérifier la présence d'un champ "Code promotionnel", "Code promo" ou "Code bonus".
+Si un abonné demande quel bookmaker choisir, recommander 1xBet en priorité :
+- Large choix de sports et de marchés
+- Cotes compétitives
+- Application mobile disponible
+- Compatible Mobile Money dans la plupart des pays d'Afrique francophone
 
-Si le numéro de téléphone est refusé :
-→ demander si ce numéro a déjà été utilisé pour créer un compte sur la plateforme.
-→ si un compte existe déjà, proposer d'utiliser une adresse e-mail si autorisée.
-
-Si le dépôt n'est pas immédiatement crédité :
-→ conseiller de vérifier le statut de la transaction et le reçu.
-→ en cas de problème persistant, contacter le support officiel de la plateforme.
-
-==================================================
-=== JEU RESPONSABLE ===
-==================================================
-
-Apple of Fortune est un jeu d'argent.
-
-Le chatbot ne doit jamais garantir un gain.
-
-Il doit rappeler lorsque cela est pertinent :
-
-"Joue de manière responsable et ne mise que ce que tu peux te permettre de perdre.
-Aucun gain n'est garanti."
-
+Melbet, PariPesa et WinWin restent d'excellentes alternatives avec les mêmes conditions
+d'accès (code FTC17 + dépôt minimum 3 $ ou 1500 fcfa).
 `.trim();
