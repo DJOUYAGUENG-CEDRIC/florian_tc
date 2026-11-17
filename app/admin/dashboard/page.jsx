@@ -5,9 +5,9 @@ import { useRouter } from 'next/navigation';
 
 function StatCard({ label, value, sub }) {
   return (
-    <div className="rounded-xl p-4" style={{ background: '#ffffff', border: '1px solid #fde68a' }}>
-      <p className="text-[10px] uppercase tracking-widest mb-1 font-bold" style={{ color: '#d97706' }}>{label}</p>
-      <p className="text-2xl font-bold" style={{ color: '#78350f' }}>{value ?? '—'}</p>
+    <div className="rounded-xl p-4" style={{ background: '#ffffff', border: '1px solid #C9E6F7' }}>
+      <p className="text-[10px] uppercase tracking-widest mb-1 font-bold" style={{ color: '#229ED9' }}>{label}</p>
+      <p className="text-2xl font-bold" style={{ color: '#0B4F6C' }}>{value ?? '—'}</p>
       {sub && <p className="text-xs mt-0.5" style={{ color: '#64748b' }}>{sub}</p>}
     </div>
   );
@@ -73,17 +73,17 @@ export default function Dashboard() {
   const goPage = (n) => { setPage(n); fetchConversations(n * PER_PAGE); setSelected(null); };
 
   return (
-    <div className="min-h-screen" style={{ background: '#fff8ec', color: '#78350f' }}>
+    <div className="min-h-screen" style={{ background: '#EAF6FD', color: '#0B4F6C' }}>
       <div
         className="sticky top-0 z-10 flex items-center justify-between px-6 py-4 shadow-sm"
-        style={{ background: '#ffffff', borderBottom: '1px solid #fde68a' }}
+        style={{ background: '#ffffff', borderBottom: '1px solid #C9E6F7' }}
       >
-        <p className="font-bold text-base" style={{ color: '#78350f' }}>Florian TC — Admin</p>
+        <p className="font-bold text-base" style={{ color: '#0B4F6C' }}>Florian TC — Admin</p>
         <button
           type="button"
           onClick={logout}
           className="text-xs px-3 py-1.5 rounded-lg transition-colors"
-          style={{ color: '#d97706', background: '#fff8ec', border: '1px solid #fde68a' }}
+          style={{ color: '#229ED9', background: '#EAF6FD', border: '1px solid #C9E6F7' }}
         >
           Déconnexion
         </button>
@@ -104,9 +104,9 @@ export default function Dashboard() {
         )}
 
         <div className="flex gap-4" style={{ alignItems: 'flex-start' }}>
-          <div className="flex-1 min-w-0 rounded-2xl overflow-hidden" style={{ background: '#ffffff', border: '1px solid #fde68a' }}>
+          <div className="flex-1 min-w-0 rounded-2xl overflow-hidden" style={{ background: '#ffffff', border: '1px solid #C9E6F7' }}>
             <div className="px-4 py-3 flex items-center justify-between" style={{ borderBottom: '1px solid #fef3c7' }}>
-              <p className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#d97706' }}>Conversations récentes</p>
+              <p className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#229ED9' }}>Conversations récentes</p>
               <p className="text-xs" style={{ color: '#64748b' }}>{total} total</p>
             </div>
 
@@ -119,16 +119,16 @@ export default function Dashboard() {
                 onClick={() => openConversation(c.id)}
                 className="w-full text-left px-4 py-3 transition-colors"
                 style={{
-                  borderBottom: '1px solid #fff8ec',
+                  borderBottom: '1px solid #EAF6FD',
                   background: selected === c.id ? 'rgba(217,119,6,0.06)' : 'transparent',
-                  borderLeft: selected === c.id ? '2px solid #d97706' : '2px solid transparent',
+                  borderLeft: selected === c.id ? '2px solid #229ED9' : '2px solid transparent',
                 }}
               >
                 <div className="flex items-center justify-between mb-1">
-                  <span className="text-xs font-mono" style={{ color: '#d97706' }}>{c.id.slice(0, 8)}…</span>
+                  <span className="text-xs font-mono" style={{ color: '#229ED9' }}>{c.id.slice(0, 8)}…</span>
                   <span className="text-[11px]" style={{ color: '#64748b' }}>{formatDate(c.updated_at)}</span>
                 </div>
-                <p className="text-sm truncate" style={{ color: '#78350f' }}>{c.first_message ?? '(vide)'}</p>
+                <p className="text-sm truncate" style={{ color: '#0B4F6C' }}>{c.first_message ?? '(vide)'}</p>
                 <p className="text-[11px] mt-0.5" style={{ color: '#64748b' }}>{c.message_count} messages</p>
               </button>
             ))}
@@ -140,7 +140,7 @@ export default function Dashboard() {
                   onClick={() => goPage(page - 1)}
                   disabled={page === 0}
                   className="text-xs px-3 py-1 rounded-lg disabled:opacity-30"
-                  style={{ color: '#d97706', background: '#fff8ec', border: '1px solid #fde68a' }}
+                  style={{ color: '#229ED9', background: '#EAF6FD', border: '1px solid #C9E6F7' }}
                 >
                   ← Préc.
                 </button>
@@ -150,7 +150,7 @@ export default function Dashboard() {
                   onClick={() => goPage(page + 1)}
                   disabled={page >= totalPages - 1}
                   className="text-xs px-3 py-1 rounded-lg disabled:opacity-30"
-                  style={{ color: '#d97706', background: '#fff8ec', border: '1px solid #fde68a' }}
+                  style={{ color: '#229ED9', background: '#EAF6FD', border: '1px solid #C9E6F7' }}
                 >
                   Suiv. →
                 </button>
@@ -161,10 +161,10 @@ export default function Dashboard() {
           {selected && (
             <div
               className="w-80 shrink-0 rounded-2xl overflow-hidden"
-              style={{ maxHeight: '70vh', display: 'flex', flexDirection: 'column', background: '#ffffff', border: '1px solid #fde68a' }}
+              style={{ maxHeight: '70vh', display: 'flex', flexDirection: 'column', background: '#ffffff', border: '1px solid #C9E6F7' }}
             >
               <div className="px-4 py-3 flex items-center justify-between shrink-0" style={{ borderBottom: '1px solid #fef3c7' }}>
-                <p className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#d97706' }}>Conversation</p>
+                <p className="text-[10px] font-bold uppercase tracking-widest" style={{ color: '#229ED9' }}>Conversation</p>
                 <button type="button" onClick={() => setSelected(null)} className="text-lg leading-none" style={{ color: '#64748b' }}>×</button>
               </div>
               <div className="flex-1 overflow-y-auto p-3 space-y-2">
@@ -177,11 +177,11 @@ export default function Dashboard() {
                       style={m.role === 'user' ? {
                         background: 'rgba(217,119,6,0.1)',
                         border: '1px solid rgba(217,119,6,0.25)',
-                        color: '#b45309',
+                        color: '#1A6E99',
                       } : {
-                        background: '#fff8ec',
-                        border: '1px solid #fde68a',
-                        color: '#78350f',
+                        background: '#EAF6FD',
+                        border: '1px solid #C9E6F7',
+                        color: '#0B4F6C',
                       }}
                     >
                       {m.content}

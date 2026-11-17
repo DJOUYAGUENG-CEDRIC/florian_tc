@@ -1,8 +1,8 @@
 import './globals.css';
 
 export const metadata = {
-  title: 'Florian TC',
-  description: 'Assistant pronostics sportifs — Code promo FTC17',
+  title: 'Florian TC — Apple of Fortune',
+  description: 'Assistant Apple of Fortune — Code promo FTC17',
   icons: { icon: '/apple.jpeg' },
 };
 

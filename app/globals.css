@@ -13,7 +13,7 @@ body {
 }
 
 .shimmer-text {
-  background: linear-gradient(90deg, #b45309, #f59e0b, #dc2626, #f59e0b, #b45309);
+  background: linear-gradient(90deg, #0B4F6C, #229ED9, #5FC3F0, #229ED9, #0B4F6C);
   background-size: 200% auto;
   -webkit-background-clip: text;
   background-clip: text;
@@ -40,12 +40,17 @@ body {
 .markdown p           { margin-bottom: 0.5rem; }
 .markdown p:last-child { margin-bottom: 0; }
 
-.markdown strong      { font-weight: 700; color: #d97706; }
+.markdown strong      { font-weight: 700; color: #229ED9; }
 
-.markdown ul          { list-style: disc; margin-left: 1.25rem; margin-bottom: 0.5rem; }
-.markdown ol          { list-style: decimal; margin-left: 1.25rem; margin-bottom: 0.5rem; }
-.markdown li          { margin-bottom: 0.25rem; line-height: 1.5; }
+.markdown ul          { list-style: disc; margin-left: 1.1rem; margin-top: 0.5rem; margin-bottom: 0.65rem; }
+.markdown ol          { list-style: decimal; margin-left: 1.1rem; margin-top: 0.5rem; margin-bottom: 0.65rem; }
+.markdown li          { margin-bottom: 0.55rem; line-height: 1.55; padding-left: 0.15rem; }
 .markdown li:last-child { margin-bottom: 0; }
+.markdown li > p      { margin-bottom: 0.2rem; }
+.markdown li::marker  { font-weight: 700; color: #229ED9; }
 
-.markdown a           { color: #d97706; text-decoration: underline; text-underline-offset: 2px; }
-.markdown a:hover     { color: #b45309; }
+/* Les URL brutes ne doivent jamais déborder de la bulle */
+.markdown a           { word-break: break-word; overflow-wrap: anywhere; }
+
+.markdown a           { color: #229ED9; text-decoration: underline; text-underline-offset: 2px; }
+.markdown a:hover     { color: #1A6E99; }

@@ -70,7 +70,7 @@ export default function Page() {
   return (
     <div
       className="flex flex-col h-dvh max-w-md mx-auto overflow-hidden"
-      style={{ background: '#fff8ec', color: '#78350f' }}
+      style={{ background: '#E9F2F8', color: '#0B4F6C' }}
     >
       <Header />
 
@@ -85,9 +85,9 @@ export default function Page() {
         {isLoading && (
           <ChatBubble sender="assistant">
             <span className="flex gap-1 items-center py-0.5">
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:0ms]"   style={{ background: '#d97706' }} />
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:150ms]" style={{ background: '#d97706' }} />
-              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:300ms]" style={{ background: '#d97706' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:0ms]"   style={{ background: '#229ED9' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:150ms]" style={{ background: '#229ED9' }} />
+              <span className="w-2 h-2 rounded-full animate-bounce [animation-delay:300ms]" style={{ background: '#229ED9' }} />
             </span>
           </ChatBubble>
         )}
@@ -98,8 +98,8 @@ export default function Page() {
       <div
         className="shrink-0"
         style={{
-          background: '#fff8ec',
-          borderTop: '1px solid #fde68a',
+          background: '#EAF6FD',
+          borderTop: '1px solid #C9E6F7',
           paddingBottom: 'env(safe-area-inset-bottom)',
         }}
       >
